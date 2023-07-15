@@ -1,0 +1,202 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<style>
+    .banner {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 20px; /* Add margin to the bottom of the banner */
+    }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+    /* Additional styles for the footer */
+    footer {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+    }
+
+        footer h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        footer ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        footer li {
+            margin-bottom: 5px;
+        }
+
+    /* Center the logo in the footer */
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+</style>
+
+<head>
+    <title>MultiSoftware Enterprise</title>
+    <link rel="stylesheet" href="~/css/styles.css" />
+</head>
+
+<body>
+    <div class="banner">
+        <img src="~/images/bannermain.jpg" alt="Banner Image">
+    </div>
+    <header>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="~/images/ourcompany.jpg" alt="ourCompany" style="height: auto; width: 100%; margin-bottom: 20px;">
+                </div>
+                <div class="col-lg-6">
+                    <h2>Our Company</h2>
+                    <ul>
+                        <li>Company history and background</li>
+                        <li>Mission and values</li>
+                        <li>Client testimonials</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Career</h2>
+                    <ul>
+                        <li>Job openings and opportunities</li>
+                        <li>Company culture and benefits</li>
+                        <li>Employee development and growth</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="~/images/career.jpg" alt="Career" style="height: auto; width: 100%; margin-bottom: 20px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="~/images/services.jpg" alt="services" style="height: auto; width: 100%; margin-bottom: 20px;">
+                </div>
+                <div class="col-lg-6">
+                    <h2>Services</h2>
+                    <ul>
+                        <li>Custom software development</li>
+                        <li>Web application development</li>
+                        <li>Mobile app development</li>
+                        <li>UI/UX design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Our Staff</h2>
+                    <ul>
+                        <li>Meet our talented team members</li>
+                        <li>Areas of expertise</li>
+                        <li>Experience and qualifications</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="~/images/staff.jpg" alt="services" style="height: auto; width: 100%; margin-bottom: 20px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="~/images/contactus.jpg" alt="services" style="height: auto; width: 100%; margin-bottom: 20px;">
+                </div>
+                <div class="col-lg-6">
+                    <h2>Contact Us</h2>
+                    <ul>
+                        <li>Get in touch with us</li>
+                        <li>Contact information</li>
+                        <li>Inquiry form</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <!-- Footer Logo -->
+            <div class="row footer-logo">
+                <div class="col-lg-12 text-center">
+                    <img src="~/images/mylogo.png" alt="Company Logo" style="max-width: 200px;">
+                </div>
+            </div>
+            <!-- Footer Sections -->
+            <div class="row">
+                <div class="col-lg-3">
+                    <h3>Our Company</h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Mission and Values</li>
+                        <li>Client Testimonials</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Custom Software Development</li>
+                        <li>Web Application Development</li>
+                        <li>Mobile App Development</li>
+                        <li>UI/UX Design</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h3>Our Staff</h3>
+                    <ul>
+                        <li>Meet our talented team members</li>
+                        <li>Areas of expertise</li>
+                        <li>Experience and qualifications</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h3>Contact Us</h3>
+                    <p>123 Main Street, City</p>
+                    <p>Email: info@multisoftware.com</p>
+                    <p>Phone: +123 456 789</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/script.js"></script>
+</body>
+
+</html>
